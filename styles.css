@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: url("https://img.freepik.com/premium-photo/winsome-young-lady-laughing-with-closed-eyes-studio-shot-appealing-girl-isolated-grey-space_926199-2853479.jpg");
+  background-size: contain;
+}
+
+header {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  /*Centering Header */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+li img{
+    float: left;
+    padding: 16px;
+  }
+li a {
+    float: right;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+  /* Main Text */
+.firstUp{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.firstUp h1 {
+    font-size: 48px;
+}
+.firstUp p{
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 30px;
+}
+/* Button Edit*/
+button{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: C271FF;
+    border-radius: 22px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 162px;
+    height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+/* Pros Section */
+.SecondUp{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  height:393px;
+}
+.SecondUp div {
+  font-size: 14px;
+  padding: 50px;
+  display: inline-block;
+  justify-content: center;
+}
+#2{
+  margin-top: '-=15px';
+}
+.SecondUp h3{
+  color: white;
+}
+.SecondUp p{
+  font-weight: lighter;
+  color: white;
+  font-style: italic;
+  width: 150px;
+  height: 48px;
+}
+/*'Learn from pros' text*/
+h2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.bigboldcolor{
+  font-weight: bold;
+  color: C271FF;
+}
+
+/*Quote*/
+#section2{
+  background-color: C271FF;
+}
+.quote{
+  height: 392px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.quote img{
+  padding:50px;
+}
+.quote div{
+  width: 720px;
+}
+.quote q{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  color: white;
+  
+}
+.quote h2{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0px 0px 0px;
+}
+.quote p{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+  margin: 0px;
+}
+
+/* Videos */
+#section3 {
+  background-color: white;
+}
+#section3 h2{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: light;
+    color: black;
+}
+#section3 h3{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    color: C271FF;
+}
+.videos div {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  color:black;
+  font-size: 14px;
+  text-align: left;
+  display: inline-block;
+  justify-content: center;
+  width: 255px;
+  height: 335px;
+}
+.videos h2{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  color:black;
+  font-size: 16px;  
+}
+.videos p{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: lighter;
+  color:rgb(7, 22, 41, 0.5);
+}
+#author1{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  height: 30px;
+}
+.videos h3{
+  padding: 10px;
+  font-size: 14px;
+}
+/* Rating and vid length */
+#rating{
+  display: flex;
+}
+#rating div{
+  flex: 1;
+  height: 15px;
+}
+#rating p{
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* Membership */
+#section4{
+  background-color: 071629;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: lighter;
+  color: white;
+  
+}
+#section4 h1{
+  font-weight: lighter;
+  font-size: 32px;
+  color: white;
+}
+.membership div{
+  display: inline-block;
+  justify-content: center;
+  width: 257px;
+  height:153px;
+}
+.membership h2{
+  font-weight: bold;
+  font-size: 15px;
+}
+.membership p{
+  font-size: 14px;
+}
+.memership button{
+  justify-content:end;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+  }
